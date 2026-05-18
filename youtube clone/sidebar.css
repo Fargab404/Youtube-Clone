@@ -1,0 +1,39 @@
+.sidebar{
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 12;
+    background-color: white;
+}
+
+#icon_1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.sidebar_element{
+    display: flex;
+    flex-direction: column;
+}
+.home_text_sub_div{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.home_text_sub_span{
+    font-size: 15px;
+}
+
+.home_button{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: none;
+}
+.home_text{
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
