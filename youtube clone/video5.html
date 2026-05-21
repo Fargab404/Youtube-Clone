@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <script src="https://kit.fontawesome.com/e14afe51ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="videoplay.css">
+</head>
+<body style="
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="navbar">
+        <div class="first_element">
+            <div class="dashline_logo">&#9776;</div>
+            <div class="youtube_logo_container">
+                <a class="youtube_link" href="http://127.0.0.1:5500/youtube.html">
+                    <div class="youtube_logo">
+                        <img style="padding-bottom: 3px;" class="youtube_icon" src="navbar/youtube.png">
+                    </div>
+                    <div class="logo_text">YouTube</div>
+                </a>
+            </div>
+        </div>
+        <div class="second_element">
+            <input  class="search_box" type="text" placeholder="Search">
+            <button class="button_search"><i class="fa-solid fa-magnifying-glass" style="color: rgb(48, 47, 47);"></i><span class="hoversearch">Search</span></button>
+            
+            <button class="button_mic"><i class="fa-solid fa-microphone" style="color: rgb(48, 47, 47);"></i><span class="hovermic">Mic</span></button>
+        </div>
+
+        <div class="third_element">
+            <button class="vertical_line"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            <button class="sign_up_button">
+                <i id="profile_pic" class="fa-regular fa-circle-user" style="color: #065fd4c7;"></i>
+                Sign in
+            </button>
+        </div>
+    </div>
+
+    <div class="video_box">
+        <div id="video_div">
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/jZilDNLQPgA?si=skqEFYGS5O14AWUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    
+        <div id="video_topic">Golden Brown - The Stranglers | Best part looped</div>
+
+        <div id="video_detail">
+            <div id="profile_pic_div"><img id="channel_pic" src="thumbnail/channels4_profile (2).jpg"></div>
+            <div id="detail_box">
+                <div id="channel_name">
+                    FantasyCore</div>
+                <div>26.7K subscribers</div>
+            </div>
+            <div id="Subscribe_button_div">
+                <button id="Subscribe_button">Subscribe</button>
+            </div>
+            <div id="like_button_list">
+                <button class="button_of_reaction"><i id="icon_of_reaction" class="fa-regular fa-thumbs-up" style="color: rgb(0, 0, 0);"></i></button>
+                <button class="button_of_reaction"><i id="icon_of_reaction"class="fa-regular fa-thumbs-down" style="color: rgb(0, 0, 0);"></i></button>
+                <button class="button_of_reaction"><i id="icon_of_reaction"class="fa-solid fa-share" style="color: rgb(0, 0, 0);"></i></i></button>
+                <button class="button_of_reaction"><i id="icon_of_reaction"class="fa-regular fa-bookmark" style="color: rgb(0, 0, 0);"></i></button>
+                <button class="button_of_reaction"><i id="icon_of_reaction"class="fa-solid fa-download" style="color: rgb(0, 0, 0);"></i>   </button>
+                <button class="button_of_reaction"><i id="icon_of_reaction"class="fa-solid fa-ellipsis-vertical" style="color: rgb(0, 0, 0);"></i></button>
+            </div>
+        </div>
+        <div id="description">
+            <p>
+                3,058,909 views  Apr 9, 2026
+            </p>
+            <p>
+                Que les autres se battent. Pour moi, c'est fini.
+            </p>
+            <p>   
+                10 minutes loop of the best part of the song Golden Brown - The Stranglers
+                Original song - • Golden Brown  
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
